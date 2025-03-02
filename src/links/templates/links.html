@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content_header %}
+  <div class="hstack">
+    <div class="p-2">
+      <a href="{% url 'contact' %}">
+        <button style="height:50px; min-width:130px; margin:2px" type="button" class="btn btn-outline-dark">Contact Me 🚀</button>
+      </a>
+    </div>
+  </div>
+{% endblock %}
+
+{% block content_main %}
+  <div style="display:flex; justify-content:center; margin-top:50px; margin-bottom:5px">
+    <h1>Danilo Santos</h1>
+  </div>
+  <div style="display:flex; justify-content:center; margin-top:5px; margin-bottom:10px">
+    <p>Creative coder, constantly exploring, building, and blooming 🌻</p>
+  </div>
+  <div class="vstack gap-2 col-md-5 mx-auto">
+    <a href="https://www.instagram.com/danilosmoura_/"><button style="height:50px; margin:2px; width:100%" type="button" class="btn btn-outline-dark">Instagram</button></a>
+    <a href="https://www.linkedin.com/in/danilo-santos-79008625b/"><button style="height:50px; margin:2px; width:100%" type="button" class="btn btn-outline-dark">LinkedIn</button></a>
+    <a href="https://github.com/DaniDMoura"><button style="height:50px; margin:2px; width:100%" type="button" class="btn btn-outline-dark">GitHub</button></a>
+  </div>
+{% endblock %}
